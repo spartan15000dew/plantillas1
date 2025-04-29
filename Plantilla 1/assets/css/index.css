@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+    border: black solid 2px;
+    background-color: white;
+    color:black ;
+    padding: 0.5rem 1rem;
+}
+
+.hero {
+    height: 30rem;
+    width: 60%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    background-size: auto 30rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../img/banner.jpg");
+    margin: 0 auto;
+}
+
+.hero-info {
+    width: fit-content;
+    margin-left: 15rem;
+    position: absolute;
+}
+
+.hero-info h1 {
+    margin: 0;
+}
+
+.subtitulo{
+    background-color: black;
+    color: white;
+    border: 10px;
+    text-align: center;
+    padding: 0.5rem 0
+
+}
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+    background-color: #dfdad4;
+    width: 56.5%;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.card button{
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.page-information{
+    text-align: center;
+    margin: auto;
+    width: 56.5%;
+}
+.page-information button{
+    background-color: orange;
+    padding: 1rem 2rem;
+    font-size: medium;
+}
